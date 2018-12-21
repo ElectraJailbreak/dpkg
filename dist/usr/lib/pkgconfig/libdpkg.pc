@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libdpkg
+Description: Debian package management system library
+Version: 1.19.2-dirty
+Libs: -L${libdir} -ldpkg
+Libs.private:  -lz /Users/coolstar/jb/the_memo/skel/usr/lib/liblzma.dylib -llzma -lbz2
+Cflags: -I${includedir}

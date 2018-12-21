@@ -1,0 +1,9 @@
+libdpkg-dev
+libdpkg-perl
+dpkg
+dpkg-dev
+dselect
+tmp
+files
+*.substvars
+*.debhelper.log
