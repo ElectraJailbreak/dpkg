@@ -1,0 +1,31 @@
+# Inherited ignores
+*.a
+*.o
+*.lo
+*.la
+*.so
+*.gcno
+*.gcda
+*.gcov
+*.lcov
+*.log
+*.trs
+*~
+.*.swp
+.deps/
+.libs/
+Makefile
+Makefile.in
+
+# Top dir ignores
+autom4te.cache/
+build-aux/
+build-tree/
+ABOUT-NLS
+ChangeLog
+INSTALL
+configure
+config.*
+libtool
+aclocal.m4
+stamp-h1
